@@ -14,6 +14,7 @@ public class TestMainJSON {
 
         System.out.println("=======decode=======");
 
+        // [0 , { "1": [5,{"6": 7 }] } ]
         String s="[0,{\"1\":[5,{\"6\":7}]}]";
         Object obj=parser.parse(s);
         JSONArray array=(JSONArray)obj;
